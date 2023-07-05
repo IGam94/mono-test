@@ -1,0 +1,14 @@
+{
+  "name": "mono-repo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "packageManager": "yarn@3.1.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "design-system": "yarn workspace @design/system",
+    "nm-main": "yarn workspace @nm/main"
+  }
+}
